@@ -1,0 +1,20 @@
+dev:
+    uv run manage.py runserver
+
+check:
+    uv run manage.py check
+
+create_app app:
+    uv run manage.py startapp {{app}}
+
+alias mm:=makemigration
+makemigration app:
+    uv run manage.py makemigrations {{app}}
+
+alias m:=migrate
+migrate app:
+    uv run manage.py migrate {{app}}
+
+alias sh:=shell
+shell:
+    uv run manage.py shell
