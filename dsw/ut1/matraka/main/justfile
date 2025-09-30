@@ -1,3 +1,4 @@
+
 dev:
     uv run manage.py runserver
 
@@ -8,6 +9,7 @@ create_app app:
     uv run manage.py startapp {{app}}
 
 alias mm:=makemigration
+#hace una migracion
 makemigration app:
     uv run manage.py makemigrations {{app}}
 
@@ -16,5 +18,6 @@ migrate app:
     uv run manage.py migrate {{app}}
 
 alias sh:=shell
+#abre una shell
 shell:
     uv run manage.py shell
