@@ -4,9 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{% if title %}{{ title }} | {% endif %}Blog</title>
+
   </head>
 
   <body>
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+
     <div class="container">
         {% block content %}
         

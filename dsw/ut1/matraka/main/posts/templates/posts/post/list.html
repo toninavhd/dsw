@@ -6,21 +6,37 @@
     <title>UltimateBlog</title>
 </head>
 <body>
-    <ul>
     {% extends "base.html" %}
+    <ul>
+   
 
 {% block content %}
-            {% for post in posts %}
+    <div class='cabezo'>{% include "header.html" with subtitle="Don't miss the cutting edge info!" %} </div>
+
+    {% for post in posts %}
+    {% comment "opcional" %}
+    <p>hola</p>
+    {% endcomment %}
+        <h3>{{ post }}</h3>
+        <p>Read more <a href="{% url 'posts:post-detail' post.id %}">here</a></p>
+        <p>{% lorem 1 b random%}</p>
+        <p>{% now 'd-m-Y' %}</p>
+    {% endfor %}
+        
+        <ul>
+    {% for post in posts %}
+        <li style="background-color: {% cycle 'LightBlue' 'LightPink' %}">
+            {{ post }}
+        </li>
+    {% endfor %}
+                {% for post in posts %}
         <li>{{ post }}</li>
     {% empty %}
         <p>No posts so far!</p>
     {% endfor %}
+
     
-    {% for post in posts %}
-        <h3>{{ post }}</h3>
-        <p>Read more <a href="{% url 'posts:post-detail' post.id %}">here</a></p>
-    {% endfor %}
-        {% include "header.html" with subtitle="Don't miss the cutting edge info!" %} 
+</ul>
 {% endblock %}
 
 
