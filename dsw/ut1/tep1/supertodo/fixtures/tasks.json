@@ -1,0 +1,122 @@
+[
+  {
+    "model": "tasks.Task",
+    "pk": 1,
+    "fields": {
+      "name": "Comprar víveres",
+      "description": "Ir al supermercado y comprar frutas, verduras y pan.",
+      "slug": "comprar-viveres",
+      "completed": false,
+      "created_at": "2025-10-01T12:00:00Z",
+      "updated_at": "2025-10-01T12:00:00Z"
+    }
+  },
+  {
+    "model": "tasks.Task",
+    "pk": 2,
+    "fields": {
+      "name": "Enviar informe mensual",
+      "description": "Preparar y enviar el informe de rendimiento mensual al equipo.",
+      "slug": "enviar-informe-mensual",
+      "completed": false,
+      "created_at": "2025-10-02T09:30:00Z",
+      "updated_at": "2025-10-02T09:30:00Z"
+    }
+  },
+  {
+    "model": "tasks.Task",
+    "pk": 3,
+    "fields": {
+      "name": "Revisar código del proyecto",
+      "description": "Hacer revisión de código (code review) en la rama principal.",
+      "slug": "revisar-codigo-del-proyecto",
+      "completed": true,
+      "created_at": "2025-09-25T11:00:00Z",
+      "updated_at": "2025-09-30T17:10:00Z"
+    }
+  },
+  {
+    "model": "tasks.Task",
+    "pk": 4,
+    "fields": {
+      "name": "Pagar servicios",
+      "description": "Pagar la factura de electricidad y agua.",
+      "slug": "pagar-servicios",
+      "completed": false,
+      "created_at": "2025-10-03T08:00:00Z",
+      "updated_at": "2025-10-03T08:00:00Z"
+    }
+  },
+  {
+    "model": "tasks.Task",
+    "pk": 5,
+    "fields": {
+      "name": "Actualizar documentación",
+      "description": "Revisar y actualizar la documentación técnica del proyecto.",
+      "slug": "actualizar-documentacion",
+      "completed": false,
+      "created_at": "2025-10-04T10:15:00Z",
+      "updated_at": "2025-10-04T10:15:00Z"
+    }
+  },
+  {
+    "model": "tasks.Task",
+    "pk": 6,
+    "fields": {
+      "name": "Llamar al cliente",
+      "description": "Confirmar detalles del pedido con el cliente principal.",
+      "slug": "llamar-al-cliente",
+      "completed": true,
+      "created_at": "2025-09-28T09:00:00Z",
+      "updated_at": "2025-10-02T11:10:00Z"
+    }
+  },
+  {
+    "model": "tasks.Task",
+    "pk": 7,
+    "fields": {
+      "name": "Organizar reunión de equipo",
+      "description": "Coordinar la reunión semanal y enviar invitaciones.",
+      "slug": "organizar-reunion-de-equipo",
+      "completed": false,
+      "created_at": "2025-10-01T14:00:00Z",
+      "updated_at": "2025-10-01T14:00:00Z"
+    }
+  },
+  {
+    "model": "tasks.Task",
+    "pk": 8,
+    "fields": {
+      "name": "Realizar copia de seguridad",
+      "description": "Hacer backup completo de la base de datos del servidor.",
+      "slug": "realizar-copia-de-seguridad",
+      "completed": true,
+      "created_at": "2025-09-27T16:00:00Z",
+      "updated_at": "2025-09-29T22:10:00Z"
+    }
+  },
+  {
+    "model": "tasks.Task",
+    "pk": 9,
+    "fields": {
+      "name": "Leer artículo técnico",
+      "description": "Leer sobre las nuevas características de Django 5.0.",
+      "slug": "leer-articulo-tecnico",
+      "completed": false,
+      "created_at": "2025-10-03T19:00:00Z",
+      "updated_at": "2025-10-03T19:00:00Z"
+    }
+  },
+  {
+    "model": "tasks.Task",
+    "pk": 10,
+    "fields": {
+      "name": "Limpiar el escritorio de trabajo",
+      "description": "Ordenar papeles, cables y mantener el espacio limpio.",
+      "slug": "limpiar-escritorio-de-trabajo",
+      "completed": false,
+      "created_at": "2025-10-04T09:00:00Z",
+      "updated_at": "2025-10-04T09:00:00Z"
+    }
+  }
+]
